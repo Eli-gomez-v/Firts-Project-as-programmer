@@ -152,7 +152,7 @@ Las acciones `start` y test son especiales en que puede omitir la palabra run en
 
 Este módulo de entrenamiento propone un entorno de desarrollo en el equipo local, en la seccion de detalles puedes encontrar el uso de contenedores de manera opcional.
 
-<details><summary>Detalles contenedores</summary>
+
 
 ### Extras - Contenedores
 
@@ -160,7 +160,23 @@ Revisar `.devcontainer/devcontainer.json`
 
 Este contenedor proporciona todo el entorno necesario para que pueda usar este módulo de entrenamiento sin tener que instalar un IDE o Node.js. No es necesario saber nada sobre el contenedor para completar este módulo de entrenamiento. Pero si te interesa puedes buscar información y hacer el ejercicio en casa usando contenedores, el ejercicio podrá presentarse como ejercicio voluntario.
 
-</details>
+
+
+### Cómo salir del contenedor remoto y volver al repositorio
+
+Para salir del contenedor remoto y volver a tu repositorio local, sigue estos pasos:
+
+1. Abre la paleta de comandos en Visual Studio Code con `Ctrl+Shift+P`.
+2. Escribe `Remote-Containers: Reopen Folder Locally` y selecciona la opción.
+3. Visual Studio Code se reiniciará y abrirá tu repositorio local.
+
+### Cómo volver al contenedor remoto
+
+Para volver al contenedor remoto, sigue estos pasos:
+
+1. Abre la paleta de comandos en Visual Studio Code con `Ctrl+Shift+P`.
+2. Escribe `Remote-Containers: Reopen in Container` y selecciona la opción.
+3. Visual Studio Code se reiniciará y abrirá el contenedor remoto.
 
 ### Ejercicio: Configuración del archivo package.json
 
