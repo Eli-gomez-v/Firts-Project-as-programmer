@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Eli-gomez-v/FIRTS-PROYECT-AS-PROGRAMMER/issues"
   },
-  "homepage": "https://github.com/Eli-gomez-v/FIRTS-PROYECT-AS-PROGRAMMER#readme"
+  "homepage": "https://github.com/Eli-gomez-v/FIRTS-PROYECT-AS-PROGRAMMER#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
